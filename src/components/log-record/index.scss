@@ -1,0 +1,35 @@
+.log-record {
+    background-color: #fefefe;
+    color: #121212;
+    border-bottom: solid 1px #aaaaaa;
+
+    .field {
+        display: inline-block;
+        min-width: 60px;
+    }
+
+    .timestamp {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .log-level-trace {
+        color: #777777;
+    }
+
+    .log-level-debug {
+        color: green;
+    }
+
+    .log-level-info {
+        color: blue;
+    }
+
+    .log-level-warn {
+        color: orange;
+    }
+
+    .log-level-error {
+        color: red;
+    }
+}
